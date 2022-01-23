@@ -293,7 +293,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('🔰 Oᗯᑎᗴᖇ 🔰', url='https://t.me/xxxtentacionn12'),
+                    InlineKeyboardButton('🔰 Oᗯᑎᗴᖇ 🔰', url='https://t.me/UrsTrulySk'),
                     InlineKeyboardButton('🆂🅾️🆄🆁🅲🅴 🅲🅾️🅳🅴', callback_data="source")
                 ]
                 ]
@@ -354,10 +354,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 
 
         elif query.data == "pages":
-            await query.answer("ഇത് നിനക്കുവേണ്ടി ഉള്ളതല്ല മോനെ, വിട്ടോളി😏",show_alert=True)
+            await query.answer("This is Not For You Man😏",show_alert=True)
 
         elif query.data == "Next":
-            await query.answer("ഇത് നിനക്കുവേണ്ടി ഉള്ളതല്ല മോനെ, വിട്ടോളി😏",show_alert=True)
+            await query.answer("This Is Not For You Man😏",show_alert=True)
         
         elif query.data == "source":
             await query.answer("Molil Nokede Phha 😤",show_alert=True)
